@@ -89,14 +89,7 @@
 }
 
 #card-box .title {
-    width: 691px;
-    margin: 16px 0px;
-    display: flex;
-    justify-content: center;
-
-
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
@@ -128,7 +121,6 @@
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
@@ -140,7 +132,6 @@
 .card .food-offer {
     margin-top: 24px;
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
     font-size: 40px;
     font-weight: 600;
     line-height: 47px;
@@ -150,11 +141,50 @@
 .card .description {
     margin-top: 24px;
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+}
+
+/* About Us */
+#about-us {
+    display: flex;
+    align-items: center;
+}
+
+#about-us > .image-container {
+    width: 50%;
+}
+
+#about-us > .image-container img{
+    width: 100%;
+}
+
+#about-us > .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#about-us > .content .title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+}
+
+#about-us > .content .subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    opacity: 0.6;
 }
